@@ -1,0 +1,30 @@
+{
+    "users" : [
+        {
+            "id" : 0,
+            "imie" : "Jan",
+            "nazwisko" : "Napieralski",
+            "login" : "Revan",
+            "password" : "a91c2b874347fd4c9d5dc230b7e22eda2094eff128abd54b4d0a71f182271875",
+            "birth" : "2002-09-13",
+            "picture" : "prof2.png",
+            "completion" : ["95","50","17"],
+            "tech_words" : [
+                "html", "hiperłącze", "css", "xml", "xhtml", "atrybut", "znacznik", "klasa", "identyfikator"
+            ]
+        },
+        {
+            "id" : 1,
+            "imie" : "Darek",
+            "nazwisko" : "Karolewski",
+            "login" : "SleepyCoder",
+            "password" : "cd9a2cc889291044218810e2c0cca8a674273a99faf636d55b8c796c47988a3e",
+            "birth" : "2004-04-21",
+            "picture" : "prof1.jpg",
+            "completion" : ["34", "9", "0"],
+            "tech_words" :[
+                "html", "position", "selektory", "prefiksy", "pseudoklasy", "pseudoelementy"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+  "course": [
+    {
+      "id": "html",
+      "title": "Kurs HTML",
+      "author": "Jan Napieralski",
+      "front_text": "Poznaj HTML, język znaczników dzięki któremu zaczniesz swoją przygodę z stronami internetowymi",
+      "header": "Stwórz swoją pierwszą witrynę internetową, naucz się podstaw tworzenia stron i poznaj język HTML!",
+      "list": [
+        "Poznasz podstawy języka HTML",
+        "Dowiesz się jak zbudowana jest strona internetowa",
+        "Przekonasz się jakie są obecne standardy znaczników",
+        "Zaczniesz przygodę z stronami internetowymi"
+      ]
+    },
+    {
+      "id": "css",
+      "title": "Kurs CSS",
+      "author": "Łukasz Czapski",
+      "front_text": "Poznaj CSS, podstawową technologię przy stylowaniu stron internetowych",
+      "header": "Poznaj podstawy języka CSS i dowiedz się jak pozycjonować i stylować elementy na twojej stronie!",
+      "list": [
+        "Poznasz podstawy języka CSS",
+        "Dowiesz się co to są klasy i identyfikatory",
+        "Przekonasz się jak graficznie stylować stronę",
+        "Poznasz pseudoelmenty i pseudoklasy",
+        "Poznasz efekty zdarzeń w CSS"
+      ]
+    },
+    {
+      "id": "js",
+      "title": "Kurs JS",
+      "author": "Micheal Reeves",
+      "front-text": "Poznaj Javascript, zacznij tworzyć pierwsze dynamiczne strony internetowe",
+      "header": "Poznaj język Javascript, potężne narzędzie do budowania dynamicznych stron internetowych!",
+      "list": ["Poznasz podstawy języka Javascript", "Nauczysz się tworzyć nowe elementy czy style ", "Poznasz typy danych w Javascripcie", "Dowiesz się czym jest Virtual DOM"]
+    },
+    {
+      "id": "csharp",
+      "title": "Kurs C#",
+      "author": "Łukasz Czapski",
+      "front-text": "Poznaj C# i zacznij tworzyć programy oraz gry!",
+      "header": "Poznaj C#, świetny oraz prosty w nauce język Microsoftu do tworzenia gier, programów i nie tylko!",
+      "list": [
+        "Poznasz podstawy języka C#",
+        "Nauczysz się tworzyć podstawowe programy ",
+        "Poznasz składnię C#",
+        "Zaznajomisz się z środowiskami do tworzenia gier",
+        "Nauczysz się tworzenia programów okienkowych"
+      ]
+    },
+    {
+      "id": "c_plus_plus",
+      "title": "Kurs C++",
+      "author": "Jan Napieralski",
+      "front-text": "Poznaj C++, język używany do budowania szybkich algorytmów",
+      "header": "Poznaj C++, język używany do tworzenia oprogramowania, sterowników, silników gier i algorytmów!",
+      "list": [
+        "Poznasz podstawy języka C++",
+        "Nauczysz się tworzyć podstawowe programy ",
+        "Poznasz składnię C++",
+        "Zaznajomisz się z zastosowaniami tej technologii",
+        "Nauczysz się tworzenia programów okienkowych"
+      ]
+    },
+    {
+      "id": "java",
+      "title": "Kurs Java",
+      "author": "Jan Napieralski",
+      "front-text": "Poznaj Java, jeden z największych języków programowania",
+      "header": "Poznaj Java, naucz się robisz aplikacje mobilne i nie tylko!",
+      "list": [
+        "Poznasz podstawy języka Java",
+        "Nauczysz się tworzyć podstawowe programy ",
+        "Poznasz składnię Java",
+        "Zaznajomisz się z srodowiskiem Android Studio",
+        "Nauczysz się tworzenia prostych aplikacji mobilnych"
+      ]
+    },
+    {
+      "id": "python",
+      "title": "Kurs Python",
+      "author": "Jan Napieralski",
+      "front-text": "Poznaj Python, prosty język programowania o wielu zastosowaniach!",
+      "header": "Poznaj Python, naucz się podstaw programowania, stwórz proste gry i zacznij swoją przygodę!",
+      "list": [
+        "Poznasz podstawy języka Python",
+        "Nauczysz się podstaw programowania",
+        "Poznasz składnię Python",
+        "Nauczysz się tworzenia prostych gier okienkowych"
+      ]
+    },
+    {
+      "id": "php",
+      "title": "Kurs PHP",
+      "author": "Ork z Hordy",
+      "front-text": "Poznaj PHP i zacznij tworzyć dynamiczne aplikacje internetowe! ",
+      "header": "Poznaj PHP, naucz się podstaw backendu i budowania aplikacji webowych",
+      "list": [
+        "Poznasz podstawy języka PHP",
+        "Nauczysz się podstaw backendu",
+        "Poznasz składnię PHP",
+        "Nauczysz się łączenia z bazą danych, pisania logiki i nie tylko",
+        "Dowiesz się jak działają serwery i zapytania do nich"
+      ]
+    }
+
+  ]
+}

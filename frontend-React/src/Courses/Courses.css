@@ -1,0 +1,118 @@
+.courses-main-container {
+  /* background-color: #1b1b1b; */
+  background-color: lightslategrey;
+  width: 100%;
+  /* height: 200vh; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.courses-main-background {
+  height: 44vh;
+  background-image: url("./backgroundcourses.png");
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  /*  position: relative; */
+}
+
+.courses-main-backgroundtext {
+  color: white;
+  font-family: "Spartan";
+  font-weight: 500;
+  font-size: 5em;
+  margin-top: 11%;
+  text-align: center;
+  opacity: 1;
+}
+
+.courses-main-sorting {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Spartan";
+  height: 50px;
+  width:100%;
+  margin-bottom:5%;
+  -webkit-box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+  box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+}
+.courses-main-sorting p{
+  font-weight: 500;
+  font-size:1vw;
+  margin-right: 8px;
+  margin-left:5%;
+  line-height:3.5;
+}
+
+.card-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.cards-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: white; */
+  width: 20.1%;
+  min-width: 300px;
+  height: 500px;
+  /* flex-grow: 1; */
+
+  perspective: 150rem;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/*.cards-holder:hover .back-face {
+    transform: rotateY(0);
+}
+
+.cards-holder:hover .front-face {
+    transform: rotateY(-180deg);
+}
+*/
+/* .bg {
+    background: url("../Course/html-background.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+} */
+
+/* #Courses-holder {
+    background-color: #1b1b1b;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.cards-holder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 80px
+} */
+
+
+.lista-rozwijana {
+  
+  width: 200px;
+}

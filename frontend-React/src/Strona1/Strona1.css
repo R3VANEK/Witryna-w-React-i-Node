@@ -1,0 +1,220 @@
+/* .Strona-container{
+    position:absolute;
+    height:100vh;
+    width:100vh;
+    background-color: aqua;
+} */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+}
+
+.side-bar-menu {
+    width: 20%;
+    background-color: lightgray;
+    min-width: 350px;
+}
+
+footer {
+    background-color: #424242;
+    height: 26px;
+    color: white;
+    text-align: center;
+}
+
+.main-area{
+    width:80%;
+    padding-bottom:100px;
+}
+/* Style dla lessons */
+
+.lesson {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px 15px;
+    margin-top:5%;
+}
+
+.Line {
+    height: 1px;
+    background-color: lightgrey;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.lesson p {
+    display: block;
+    padding: 3px 0;
+    clear: both;
+    line-height: 1.9;
+}
+
+.lesson h1 {
+    margin-top: 2%;
+}
+
+.lesson h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.lesson img {
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+.lesson ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.lesson li {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.lesson a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.lesson a:visited {
+    text-decoration: none;
+}
+
+
+/* style dla menu bocznego */
+
+.navi {
+    background-color: #2e3035;
+    color: #686c76;
+    margin: 0.7em;
+    padding: 5px;
+    box-shadow: 0px 0px 6px #2e3035;
+    margin-top:20%;
+}
+
+.navi .navi-title {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.html-course-menu-logo {
+    background: url("../Left_Menu/img/HTML5_logo_and_wordmark.svg") no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.css-course-menu-logo {
+    background: url("../Left_Menu/img/CSS.svg") no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.navi .navi-title .logo-shield {
+    width: 100px;
+    height: 100px;
+}
+
+.navi .navi-title .navi-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.navi .menu-kursu {
+    list-style-type: none;
+    margin: 25px 5px 5px;
+    padding: 0;
+}
+
+.navi .menu-kursu .menu-item {
+    width: 100%;
+}
+
+.navi .menu-kursu .menu-item a {
+    color: #686c76;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #686c76;
+}
+
+.navi .menu-kursu .menu-item a.html:hover,
+.navi .menu-kursu .menu-item a.html :visited {
+    color: #e34c25;
+    border-bottom: 1px solid #e34c25;
+}
+
+.navi .menu-kursu .menu-item a.css:hover,
+.navi .menu-kursu .menu-item a.css :visited {
+    color: #0170ba;
+    border-bottom: 1px solid #0170ba;
+}
+
+.css3 {
+    border-top: 5px solid #0170ba;
+}
+
+a .css:hover {
+    color: #0170ba;
+    border-bottom: 1px solid #0170ba;
+}
+
+a .html:hover {
+    color: #e34c25;
+    border-bottom: 1px solid #e34c25;
+}
+
+.html5 {
+    border-top: 5px solid #e34c25;
+}
+.techword{
+    color:rgb(31, 206, 31);
+    font-weight: 700;
+    cursor: pointer;
+    margin:5px;
+    position: relative;
+    text-align: center  ;
+}
+.techword::before{
+    content:"Dodaj nowe słówko ";
+    position: absolute;
+    bottom: 20px;
+    width:19vh;
+    background-color: #e34c25;
+    border-radius:5px;
+    padding:10px;
+    color:black;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    
+    visibility: hidden;
+}
+.techword:hover:before{
+    visibility: visible;
+}
+
+.normal{
+    margin : 5px
+}

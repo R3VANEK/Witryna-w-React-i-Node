@@ -1,0 +1,60 @@
+{
+    "words" : [
+        {
+            "title" : "html",
+            "description" : "Hipertekstowy język znaczników (ang. Hypertext Markup Language) służący jako 'szkielet' każdej strony internetowej. Język HTML operuje znacznikami, które określają fizyczną budowę elementów na stronie "
+        },
+        {
+            "title" : "hiperłącze",
+            "description" : "inaczej - odnośnik, link do innej strony internetowej, grafiki, dokumentu etc."
+        },
+        {
+            "title" : "css",
+            "description" : "Kaskadowe Arkusze Stylu (ang. Cascading Style Sheets). Język CSS służy uatrakcyjnieniu wizualnemu strony. Za jego pomocą możemy okreśłić wygląd poszczególnych znaczników języka HTML, dodawać animacje, efekty graficzne."
+        },
+        {
+            "title" : "xml",
+            "description" : "Rozszerzalny Język Znaczników (ang. Extensible Markup Language). Uniwersalny język znaczników służący do prezentowania danych w sposób niezależny od platformy. Z budowy podobny do języka HTML."
+        },
+        {
+            "title" : "xhtml",
+            "description" : "Rozszerzalny Język Znaczników Hipertekstowych (ang. Extensible Hypertext Markup Language). Język służący do tworzenia stron internetowych ogólnego przeznaczenia. Jest on niejakim przedstawieniem HTML w standardzie XML. Takie dokumenty korzystają z zalet XML jak i HTML"
+        },
+        {
+            "title" : "atrybut",
+            "description" : "Jest to pewnego rodzaju specjalna właściwość znacznika HTML. Atrybuty dodajemy zaraz po określeniu rodzaju znacznika np <p atrybut='nazwa_atrybutu'></p>. Różne znaczniki posiadają unikalne atrybuty np. method dla form. Atrybutami, które możemy nadać wszystkim znacznikom są identyfikatory i klasy"
+        },
+        {
+            "title" : "znacznik",
+            "description" : "Specjalny tekst umieszczony pośrodku znaków '<>'. Język HTML operuje dużą ilością znaczników, które są w specjalny sposób odczytywane przez przeglądarki np. znacznik <img/> przeglądarka odczyta jako zdjęcie, nie jako tekst '<img/>.'"
+        },
+        {
+            "title" : "klasa",
+            "description" : "Specjalny atrybut nadawany znacznikom HTML. Służy do uchwycenia elementu w CSS i zmodyfikowania jego wyglądu w przeglądarce. W przeciwieństwie do identyfikatora, może istnieć parę znaczników z tą samą klasą."
+        },
+        {
+            "title" : "identyfikator",
+            "description" : "Specjalny atrybut nadawany znacznikom HTML. Służy do uchwycenia elementu w CSS i zmodyfikowania jego wyglądu w przeglądarce. W przeciwieństwie do klasy, na stronie nie może być wielu elementów dzielących identyfikator, musi on być unikalny dla danego znacznika."
+        },
+        {
+            "title" : "position",
+            "description" : "Właściwość CSS opisująca jak dany element jest osadzony na stronie internetowej. 'position' dopuszcza pięć parametrów : static (domyślne), absolute, relative, fixed, sticky."
+        },
+        {
+            "title" : "selektory",
+            "description" : "Występują w języku CSS i są to sposoby uchwycenia elementów HTML. Możemy odwołać się do takiego elementu na przykład poprzez jego klasę, identyfikator lub nazwę znacznika by dodać do niego style."
+        },
+        {
+            "title" : "prefiksy",
+            "description" : "Używane w języku CSS sposoby na wywołanie tego samego efektu stylowania dla wszystkich przeglądarek. Z powodu różnic w odczytywaniu plików nie wszystkie przeglądarki potrafią odczytać niektóre style CSS, dotyczy to głównie efektów animacji. Aby temu zapobiec musimy powtórzyć tą samą formułkę dodając przed tym prefiks odpowiedniej przeglądarki np. -o-transition: all .5s;. "
+        },
+        {
+            "title" : "pseudoklasy",
+            "description" : "Służą uchwyceniu specjalnych elementów czy zachowań na stronie w CSS. Możemy na przykład za ich pomocą ustalic co się stanie po kliknięciu na pewien tekst lub po jego najechaniu."
+        },
+        {
+            "title" : "pseudoelementy",
+            "description" : "Pozwalają ostylować niektóre elementy bez konieczności pisania dodatkowych znaczników w HTML. Dla przykładu za ich pomocą możemy powiedzieć przeglądarce co ma być przed i po znaczniku HTML, bez potrzeby pisania kosmetycznych elementów na stronie."
+        }
+    ]
+}

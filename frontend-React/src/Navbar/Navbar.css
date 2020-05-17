@@ -1,0 +1,225 @@
+.mdc-top-app-bar {
+  background-color: #424242 !important;
+  -webkit-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  position: -webkit-sticky;
+  /* position:relative; */
+}
+
+#logo-holder {
+  height: 100%;
+  float: left;
+}
+
+.logo {
+  background-image: url("./logo.png");
+}
+
+.mdc-top-app-bar__title {
+  font-family: "Averia Sans Libre", cursive;
+  padding-left: 10px;
+}
+
+#img-holder {
+  height: 100%;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.img-wrapper img {
+  max-width: 75%;
+  max-height: 100%;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
+
+.img-wrapper {
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+}
+
+.text-wrapper {
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 40px;
+  font-family: "Spartan";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.25rem;
+  line-height: 3.7rem;
+  font-weight: 500;
+  letter-spacing: 0.0125em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  padding-left: 20px;
+  padding-right: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#arrow {
+  font-size: 25px;
+  line-height: 59px;
+  transition-duration: 500ms;
+}
+
+.logoclass img {
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#menu-elements {
+  height: 100%;
+  margin-right: -220px;
+  cursor: pointer;
+}
+
+#menu-elements div {
+  float: left;
+  margin-left: 120px;
+  line-height: 65px;
+}
+
+#menu-elements div:hover span {
+  color: #a7c0cd;
+}
+
+#menu-elements div:hover {
+  color: #a7c0cd;
+}
+
+#user-name:hover ~ #pomoc > #arrow {
+  transform: rotate(90deg);
+}
+
+#user-name {
+  margin-right: 15px;
+}
+
+.mdc-top-app-bar span {
+  cursor: pointer;
+}
+
+#navbar-list {
+  display: none;
+  color: #212121;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10.5%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  right: 1.5%;
+  top: 100%;
+  transition-duration: 1000ms;
+}
+
+#user-name:hover ~ #navbar-list {
+  display: block;
+}
+
+#navbar-list:hover {
+  display: block;
+}
+
+#navbar-list:hover ~ #pomoc > #arrow {
+  transform: rotate(90deg);
+}
+
+#navbar-list .list-element span {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  text-transform: inherit;
+}
+
+.list-element {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  background-color: #42424200;
+  left: 0;
+  margin-top: 3%;
+}
+
+.list-element:hover {
+  background-color: #d4d4d480;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+#navbar-list a {
+  text-decoration: none;
+  color: black;
+}
+.navbar-button-area {
+  height: 100%;
+  margin-right: 0%;
+  font-family: Roboto, sans-serif;
+}
+.loging-button {
+  width: 26%;
+  height: 70%;
+  margin-top: 2%;
+  float: left;
+  padding: 12px;
+  text-align: center;
+  margin-left: 25%;
+  border: 1.2px solid white;
+  border-radius: 10px;
+  color: white;
+  background-color: none;
+  cursor: pointer;
+  transition: 0.25s ease-in;
+  font-family: "Spartan";
+  font-size:82%;
+}
+.register-button {
+  width: 28%;
+  height: 70%;
+  margin-top: 2%;
+  margin-left: 5%;
+  float: left;
+  padding: 12px;
+  text-align: center;
+  border: 1.2px solid white;
+  border-radius: 10px;
+  color: white;
+  background-color: none;
+  cursor: pointer;
+  transition: 0.25s ease-in;
+  font-family: "Spartan";
+  font-size:80%;
+}
+.navbar-button-area a {
+  transition: 0.5s ease-in;
+}
+.loging-button:hover {
+  border-radius: 30px;
+  border-color: rgb(85, 235, 85);
+}
+.loging-button:hover a {
+  color: rgb(85, 235, 85);
+}
+.register-button:hover a {
+  color: rgb(85, 235, 85);
+}
+.register-button:hover {
+  border-radius: 30px;
+  border-color: rgb(85, 235, 85);
+  color: rgb(85, 235, 85);
+}

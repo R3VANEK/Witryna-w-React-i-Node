@@ -1,0 +1,300 @@
+.course-author {
+  margin-left: 4%;
+  font-family: Roboto, sans-serif;
+  font-size: 0.7rem;
+  margin-top: 0.8%;
+  font-weight: 500;
+  letter-spacing: 0.0325em;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.percentage {
+  position: absolute;
+  top: 1%;
+  right: 3%;
+  font-family: Roboto, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 0.0325em;
+  color: #00b248;
+}
+
+.kurs-h2 {
+  margin: 0 4%;
+  padding-top: 2%;
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 1000;
+  letter-spacing: 0.0325em;
+}
+
+.back-main-text {
+  margin: 0 4%;
+  padding-top: 5%;
+  font-family: Roboto, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.0325em;
+}
+
+.what-to-learn {
+  margin: 0 4%;
+  padding-top: 10%;
+  font-family: Roboto, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.0325em;
+  color: #00b248;
+}
+
+.extra-list {
+  margin: 0 8%;
+  vertical-align: middle;
+  font-family: Roboto, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.692);
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.extra-element {
+  padding-top: 2%;
+  background: url("li-image1.png") no-repeat left bottom;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.button-wrapper {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-face {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  transform: rotateY(180deg);
+}
+
+.info-wrapper {
+  flex-grow: 1;
+}
+
+.card-face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.8s ease;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.front-face {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Course-img {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.course-short {
+  margin-left: 4%;
+  font-family: Roboto, sans-serif;
+  font-size: 0.9rem;
+  margin-top: 5%;
+  font-weight: 500;
+  letter-spacing: 0.0325em;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.back-face .mdc-button {
+  background-color: #0197f6;
+}
+
+.front-face .mdc-button {
+  background-color: #0197f6;
+}
+
+.hover-div {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  flex-grow: 1;
+}
+
+.front-face .button-wrapper {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-div .kurs-h2 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#html .Course-img {
+  background: url("./html.svg") no-repeat center center;
+  background-size: 60% 60%;
+}
+
+#html .front-face {
+  background: url("./html-background.png") no-repeat top;
+  background-size: cover;
+}
+
+#css .Course-img {
+  background: url("./CSS3.svg") no-repeat center center;
+  background-size: 60% 60%;
+}
+
+#css .front-face {
+  background: url("./css-background.png") no-repeat top;
+  background-size: cover;
+}
+
+#js .Course-img {
+  background: url("./js.svg") no-repeat center center;
+  background-size: 60% 60%;
+}
+
+#js .front-face {
+  background: url("./js-background.png") no-repeat top;
+  background-size: cover;
+}
+
+#js .hover-div {
+  background-color: #fee5a5;
+}
+
+#css .hover-div {
+  background-color: #9ae0fa;
+}
+
+#html .hover-div {
+  background-color: #fdd7c0;
+}
+.button-wrapper a {
+  text-decoration: none;
+  color: white;
+}
+
+#csharp .hover-div {
+  background-color: #8916a0;
+}
+
+#csharp .Course-img {
+  background: url("./csharp.svg") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+#csharp .front-face {
+  background: url("./csharp-background.png") no-repeat top;
+  background-size: cover;
+}
+
+#c_plus_plus .hover-div{
+  background-color: #3aa6ff;
+}
+#c_plus_plus .Course-img{
+  background: url("./c++.svg") no-repeat center center;
+  background-size: 60% 60%;
+}
+
+#c_plus_plus .front-face {
+  background: url("./cpp_background.png") no-repeat top;
+  background-size: cover;
+}
+
+#java .hover-div{
+  background-color: #f8b147;
+}
+
+#java .Course-img{
+  background: url("./java.svg") no-repeat center center;
+  background-size: 70% 70%;
+}
+
+#java .front-face {
+  background: url("./java_background.png") no-repeat top;
+  background-size: cover;
+}
+
+#python .hover-div{
+  background-color: #6b81c0;
+}
+
+#python .Course-img{
+  background: url("./python.svg") no-repeat center center;
+  background-size: 70% 70%;
+  margin-left: 5px;
+}
+
+#python .front-face {
+  background: url("./python_background.png") no-repeat top;
+  background-size: contain;
+}
+
+#php .hover-div{
+  background-color: rgb(143, 208, 216);
+}
+
+#php .Course-img{
+  background: url("./php.svg") no-repeat center center;
+  background-size: 48% 35%;
+}
+
+#php .front-face{
+  background: url("php_background.png");
+  background-size: contain;
+}
+/* 
+
+.Explore {
+    width: 50%;
+    text-align: center;
+    background-image: none;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 5px;
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+#html .Explore {
+    background-color: rgba(255, 127, 0, 1);
+    border: 3px solid rgba(255, 127, 0, 0.57);
+}
+
+#css .Explore {
+    background-color: rgba(13, 135, 255, 1);
+    border: 3px solid rgba(13, 135, 255, 0.57);
+}
+
+#javascript .Explore {
+    background-color: rgb(235, 204, 5);
+    border: 3px solid rgb(235, 204, 5);
+}
+
+.hover-div {
+    width: 100%;
+    height: 40%;
+    background-color: white !important;
+    margin-top: 24%;
+    margin-top: 100%;
+    transition-duration: 1000ms;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+} */
