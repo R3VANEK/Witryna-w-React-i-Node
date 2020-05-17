@@ -1,0 +1,34 @@
+{
+    "course": [
+        {
+            "id": "html",
+            "title": "kurs HTML",
+            "author": "Jan Napieralski",
+            "front_text": "Poznaj HTML, język znaczników dzięki któremu zaczniesz swoją przygodę z stronami internetowymi",
+            "header": "Stwórz swoją pierwszą witrynę internetową naucz się podstaw programowania i poznaj HTML oraz CSS!",
+            "list": [
+                "Poznasz podstawy języka HTML", "Dowiesz się jak zbudowana jest strona internetowa", "Przekonasz się jakie są obecne standardy znaczników", "Zaczniesz przygodę z stronami internetowymi"
+            ]
+        },
+        {
+            "id": "css",
+            "title": "kurs CSS",
+            "author": "Łukasz Czapski",
+            "front_text": "Poznaj CSS, podstawową technologię przy stylowaniu stron internetowych",
+            "header": "Poznaj podstawy języka CSS i dowiedz się jak pozycjonować i stylować elementy na twojej stronie!",
+            "list": [
+                "Poznasz podstawy języka CSS", "Dowiesz się co to są klasy i identyfikatory", "Przekonasz się jak graficznie stylować stronę", "Poznasz pseudoelmenty i pseudoklasy", "Poznasz efekty zdarzeń w CSS"
+            ]
+        },
+        {
+            "id": "js",
+            "title": "kurs JS",
+            "author": "Keanu Reeves",
+            "front-text": "Poznaj Javascript, zacznij tworzyć pierwsze dynamiczne strony internetowe",
+            "header": "Poznaj język Javascript, potężne narzędzie do budowania dynamicznych stron internetowych!",
+            "list": [
+                "Poznasz podstawy języka Javascript", "Nauczysz się tworzyć nowe elementy czy style ", "Poznasz typy danych w Javascripcie", "Dowiesz się czym jest Virtual DOM"
+            ]
+        }
+    ]
+}
